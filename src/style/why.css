@@ -1,0 +1,71 @@
+.why-choose-us-area {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.page-paddings {
+  padding: 60px 0;
+}
+
+.section-title p {
+  font-size: 16px;
+  color: #444;
+  max-width: 767px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.why-chhose-us-box-inner {
+  padding: 30px;
+  z-index: 9;
+  margin-top: 30px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px 15px;
+  box-shadow: 0 0 15px #eee;
+}
+
+.why-chhose-us-box-inner .why-chhose-us-icon {
+  border-radius: 100%;
+  display: inline-block;
+  padding: 20px;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 65px;
+  margin-bottom: 25px;
+  background-color: rgba(7, 41, 77, 0.13);
+  color: #07294d;
+}
+
+.why-chhose-us-icon img {
+  height: 50px;
+  position: absolute;
+  right: 13px;
+}
+
+.modul-icon img {
+  position: absolute;
+  bottom: 20px;
+}
+
+.why-chhose-us-content .theme-description,
+.why-chhose-us-content .theme-title {
+  color: #000;
+}
+
+.theme-title {
+  font-family: Rubik, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #07294d;
+}
+
+.theme-description {
+  font-size: 15px;
+  margin: 0;
+  color: #666;
+}
