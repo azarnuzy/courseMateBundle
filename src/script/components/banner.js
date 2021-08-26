@@ -9,7 +9,6 @@ class Banner extends HTMLElement {
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-6 col-xl-6">
-                <img src="../../img/mentahan wave.png" alt="">
                 <div class="banner_text">
                   <div class="banner_text_iner">
                     <h5>Madanian Cared</h5>

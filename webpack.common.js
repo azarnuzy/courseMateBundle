@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-/* const copyWebpackPlugin = require('copy-webpack-plugin'); */
+const copyWebpackPlugin = require('copy-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -21,17 +21,6 @@ module.exports = {
           },
         ],
       },
-      {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[path][name].[ext]',
-            },
-          },
-        ],
-      },
     ],
   },
   plugins: [
@@ -39,11 +28,13 @@ module.exports = {
       template: './src/index.html',
       filename: 'index.html',
     }),
-    /* new copyWebpackPlugin([
-      {
-        from: path.resolve(__dirname, './src/img'),
-        to: path.resolve(__dirname, 'dist/images'),
-      },
-    ]), */
+    new copyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, './src/img'),
+          to: path.resolve(__dirname, 'dist/src/img'),
+        },
+      ],
+    }),
   ],
 };
