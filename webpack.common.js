@@ -28,6 +28,10 @@ module.exports = {
       template: './src/index.html',
       filename: 'index.html',
     }),
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      filename: 'about.html',
+    }),
     new copyWebpackPlugin({
       patterns: [
         {

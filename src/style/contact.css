@@ -10,12 +10,13 @@
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
 }
 
-.contact .info i {
+.contact .info svg {
   font-size: 20px;
   color: #ffb606;
   float: left;
   width: 44px;
   height: 44px;
+  padding: 8px;
   background: #e7f5fb;
   display: flex;
   justify-content: center;
@@ -67,9 +68,9 @@
   color: #fff;
 }
 
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .email:hover svg,
+.contact .info .address:hover svg,
+.contact .info .phone:hover svg {
   background: #ffb606;
   color: #fff;
 }

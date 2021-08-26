@@ -12,6 +12,7 @@
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^6.2.0",
@@ -22,5 +23,8 @@
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.0.0",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.0"
   }
 }

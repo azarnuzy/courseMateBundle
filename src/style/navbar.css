@@ -91,9 +91,10 @@ ul.main_nav_list {
   background: #ffb606;
 }
 
-.header_side i {
+.header_side svg {
   font-size: 29px;
 }
+
 .header_side span {
   display: block;
   position: relative;
@@ -106,6 +107,22 @@ ul.main_nav_list {
   color: #ffffff;
 }
 
-.img-phone i {
+.img-phone svg {
   color: white;
 }
+
+.hamburger_container svg {
+  font-size: 35px;
+  color: #ffb606;
+  margin-right: 20px;
+}
+
+/* .hamburger_container .svg-inline--fa {
+  height: 30px;
+  margin-right: 30px;
+  color: #ffb606;
+}
+
+.hamburger_container .svg-inline--fa.fa-w-14 {
+  width: 1.5em;
+} */

@@ -5,9 +5,24 @@ const main = () => {
 
   document.addEventListener('click', function (e) {
     const tar = e.target.classList;
-    if (tar.contains('fas')) {
+    const valText = e.target.innerText;
+    const target = e.target.parentElement;
+    const a = 'BERANDA';
+    const b = 'TENTANG KAMI';
+    const c = 'PAKET BELAJAR';
+    const d = 'KONTAK KAMI';
+    if (
+      tar.contains('svg-inline--fa') ||
+      target.classList.contains('svg-inline--fa')
+    ) {
       menuContainer.classList.add('active');
-    } else if (tar.contains('menu_close')) {
+    } else if (
+      tar.contains('menu_close') ||
+      valText === a ||
+      valText === b ||
+      valText === c ||
+      valText === d
+    ) {
       menuContainer.classList.remove('active');
     }
   });
