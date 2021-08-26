@@ -9,7 +9,7 @@ class NavBar extends HTMLElement {
         <div class="header_content d-flex flex-row align-items-center">
           <div class="logo_container">
             <div class="logo">
-              <img src="./src/img/output-onlinepngtools.png" alt="LOGO" />
+              <img src=".src/img/output-onlinepngtools.png" alt="LOGO" />
               <span>MDCared</span>
             </div>
           </div>
@@ -23,10 +23,10 @@ class NavBar extends HTMLElement {
                   <a href="#">TENTANG KAMI</a>
                 </li>
                 <li class="main_nav_item">
-                  <a href="#">PAKET BELAJAR</a>
+                  <a href="#pricing-list">PAKET BELAJAR</a>
                 </li>
                 <li class="main_nav_item">
-                  <a href="#">KONTAK KAMI</a>
+                  <a href="#contact">KONTAK KAMI</a>
                 </li>
               </ul>
             </div>

@@ -5,8 +5,7 @@ class Banner extends HTMLElement {
 
   render() {
     this.innerHTML = `
-        <section class="banner_part">
-          
+        <section class="banner_part">          
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-6 col-xl-6">
@@ -16,8 +15,8 @@ class Banner extends HTMLElement {
                     <h5>Madanian Cared</h5>
                     <h1>Solusi Belajar Terbaik Masuk SMA Favorit</h1>
                     <p>Tunggu apa lagi, mulai kelasmu sekarang juga!!!</p>
-                    <a href="#" class="btn_1"><b>View Course</b></a>
-                    <a href="#" class="btn_2"><b>Get Started</b></a>
+                    <a href="#pricing-list" class="btn_1"><b>Lihat Paket</b></a>
+                    <a href="#" class="btn_2"><b>Daftar</b></a>
                   </div>
                 </div>
               </div>

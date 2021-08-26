@@ -1,3 +1,5 @@
+import facility from '../data/facilities.js';
+
 class LearningFacilities extends HTMLElement {
   connectedCallback() {
     this.render();
@@ -19,14 +21,11 @@ class LearningFacilities extends HTMLElement {
                 <div class="why-chhose-us-box wow fadeInUp center">
                   <div class="why-chhose-us-box-inner">
                     <div class="why-chhose-us-icon">
-                      <img src="./src/img/live.png" alt="Live" />
+                      <img src="./src/img/${facility[0].photo}" alt="Live" />
                     </div>
                     <div class="why-chhose-us-content">
-                      <h3 class="theme-title">Live Teaching</h3>
-                      <p class="theme-description">
-                        Pembelajaran dilakukan secara langsung oleh tutor yang
-                        berpengalaman
-                      </p>
+                      <h3 class="theme-title">${facility[0].title}</h3>
+                      <p class="theme-description">${facility[0].description}</p>
                     </div>
                   </div>
                 </div>
@@ -41,13 +40,11 @@ class LearningFacilities extends HTMLElement {
                         background-color: rgba(67, 130, 255, 0.13);
                       "
                     >
-                      <img src="./src/img/course-builder.png" alt="Modul" />
+                      <img src="./src/img/${facility[1].photo}" alt="Modul" />
                     </div>
                     <div class="why-chhose-us-content">
-                      <h3 class="theme-title">Modul</h3>
-                      <p class="theme-description">
-                        Modul pembelajaran yang lengkap dan menarik
-                      </p>
+                      <h3 class="theme-title">${facility[1].title}</h3>
+                      <p class="theme-description">${facility[1].description}</p>
                     </div>
                   </div>
                 </div>
@@ -62,12 +59,12 @@ class LearningFacilities extends HTMLElement {
                         background-color: rgba(248, 144, 53, 0.13);
                       "
                     >
-                      <img src="./src/img/flexible-lock.png" alt="Soal" />
+                      <img src="./src/img/${facility[2].photo}" alt="Soal" />
                     </div>
                     <div class="why-chhose-us-content">
-                      <h3 class="theme-title">Bank Soal</h3>
+                      <h3 class="theme-title">${facility[2].title}</h3>
                       <p class="theme-description">
-                        Bank soal dan pembahasan dari tahun 2015-2021
+                        ${facility[2].description}
                       </p>
                     </div>
                   </div>

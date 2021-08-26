@@ -23,6 +23,11 @@
   background-color: #fff;
   border-radius: 15px 15px;
   box-shadow: 0 0 15px #eee;
+  transition: 0.3s;
+}
+
+.why-chhose-us-box-inner:hover {
+  transform: scale(1.02);
 }
 
 .why-chhose-us-box-inner .why-chhose-us-icon {

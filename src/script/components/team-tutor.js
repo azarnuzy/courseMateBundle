@@ -80,6 +80,11 @@ class TeamTutor extends HTMLElement {
                 </div>
               </div>
             </div>
+            <div class="d-flex align-items-end flex-column bd-highlight mt-4">
+              <div class="link-why text-center">
+                <strong><a href="">Lihat Selengkapnya...</a></strong>
+              </div>
+            </div>
           </div>
         </section>
         `;
