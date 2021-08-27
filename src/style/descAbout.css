@@ -1,0 +1,18 @@
+.ftco-no-pt {
+  padding-top: 0;
+}
+.ftco-section {
+  padding: 7em 0;
+  position: relative;
+}
+.ftc-no-pb {
+  padding-bottom: 0 !important;
+}
+
+.wrap-about {
+  position: relative;
+}
+
+.wrap-about h2 {
+  font-weight: 500;
+}

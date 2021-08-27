@@ -17,16 +17,16 @@ class NavBar extends HTMLElement {
             <div class="main_nav">
               <ul class="main_nav_list">
                 <li class="main_nav_item">
-                  <a href="#">BERANDA</a>
+                  <a href="./index.html#">BERANDA</a>
                 </li>
                 <li class="main_nav_item">
-                  <a href="#">TENTANG KAMI</a>
+                  <a href="./about.html">TENTANG KAMI</a>
                 </li>
                 <li class="main_nav_item">
-                  <a href="#pricing-list">PAKET BELAJAR</a>
+                  <a href="./index.html#pricing-list">PAKET BELAJAR</a>
                 </li>
                 <li class="main_nav_item">
-                  <a href="#contact">KONTAK KAMI</a>
+                  <a href="./index.html#contact">KONTAK KAMI</a>
                 </li>
               </ul>
             </div>

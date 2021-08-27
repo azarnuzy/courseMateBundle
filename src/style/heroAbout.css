@@ -1,0 +1,31 @@
+.hero-wrap {
+  background-image: url(../img/mentahan\ background.png);
+  width: 100%;
+  height: 60vh;
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.hero-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  opacity: 0.3;
+  background-color: rgb(241, 69, 61);
+}
+
+.hero-wrap.hero-wrap-2 .slider-text {
+  height: 60vh;
+  padding-top: 50px;
+}
+
+.hero-wrap.hero-wrap-2 .slider-text .bread {
+  font-weight: bolder;
+  color: white;
+}

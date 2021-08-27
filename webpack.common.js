@@ -3,10 +3,12 @@ const copyWebpackPlugin = require('copy-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  entry: './src/app.js',
+  entry: {
+    app: './src/app.js',
+  },
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: './[name].bundle.js',
+    clean: true,
   },
   module: {
     rules: [
@@ -27,10 +29,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: 'index.html',
+      chunks: 'app',
     }),
     new HtmlWebpackPlugin({
       template: './src/about.html',
       filename: 'about.html',
+      chunks: 'about',
     }),
     new copyWebpackPlugin({
       patterns: [
