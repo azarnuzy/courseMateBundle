@@ -18,6 +18,8 @@ import './script/components/testimonial-member.js';
 import './script/components/team-tutor.js';
 import './script/components/contact.js';
 import './script/components/heroWrap.js';
+import './script/components/descAbout.js';
+import './script/components/learning-facilites-about.js';
 import './script/view/dom.js';
 
 document.addEventListener('DOMContentLoaded', main);

@@ -140,6 +140,10 @@
     margin: 25px 0 12.5px;
   }
 
+  .heading-section h2 {
+    font-size: 28px;
+  }
+
   #footer .footer-bottom {
     padding-top: 20px;
     padding-bottom: 20px;
