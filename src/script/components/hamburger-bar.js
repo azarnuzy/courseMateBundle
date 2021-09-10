@@ -12,10 +12,10 @@ class HamburgerBar extends HTMLElement {
           <div class="menu_inner menu_mm">
             <div class="menu menu_mm">
               <ul class="menu_list menu_mm">
-                <li class="menu_item menu_mm"><a href="#">BERANDA</a></li>
-                <li class="menu_item menu_mm"><a href="#">TENTANG KAMI</a></li>
-                <li class="menu_item menu_mm"><a href="#pricing-list">PAKET BELAJAR</a></li>
-                <li class="menu_item menu_mm"><a href="#contact">KONTAK KAMI</a></li>
+                <li class="menu_item menu_mm"><a href="./index.html#">BERANDA</a></li>
+                <li class="menu_item menu_mm"><a href="./about.html">TENTANG KAMI</a></li>
+                <li class="menu_item menu_mm"><a href="./index.html#pricing-list">PAKET BELAJAR</a></li>
+                <li class="menu_item menu_mm"><a href="./index.html#contact">KONTAK KAMI</a></li>
               </ul>
               <div class="menu_social_container menu_mm">
                 <ul class="menu_social menu_mm">

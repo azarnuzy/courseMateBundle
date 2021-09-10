@@ -73,7 +73,7 @@ class LearningFacilities extends HTMLElement {
             </div>
             <div class="d-flex align-items-end flex-column bd-highlight mt-4">
               <div class="link-why text-center">
-                <strong><a href="">Lihat Selengkapnya...</a></strong>
+                <strong><a href="./about.html#learn-facilites">Lihat Selengkapnya...</a></strong>
               </div>
             </div>
           </div>

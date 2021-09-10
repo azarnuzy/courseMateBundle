@@ -36,6 +36,11 @@ module.exports = {
       filename: 'about.html',
       chunks: 'about',
     }),
+    new HtmlWebpackPlugin({
+      template: './src/pricingList.html',
+      filename: 'pricingList.html',
+      chunks: 'pricingList',
+    }),
     new copyWebpackPlugin({
       patterns: [
         {

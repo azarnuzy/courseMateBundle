@@ -5,7 +5,7 @@ class PricingList extends HTMLElement {
 
   render() {
     this.innerHTML = `
-        <section class="pricing-list" id="pricing-list">
+        <section class="pricing-list">
           <div class="pricing-background">
             <div class="pricing-wrap">
               <div class="section-title text-center">
@@ -19,14 +19,14 @@ class PricingList extends HTMLElement {
                       alt=""
                       class="pricing-img"
                     />
-                    <h2 class="pricing-header">PAKET 1</h2>
+                    <h2 class="pricing-header" id="pricing-list">BEASISWA COMATE</h2>
                     <ul class="pricing-features">
-                      <li class="pricing-features-item">Lorem, ipsum.</li>
-                      <li class="pricing-features-item">
-                        Lorem ipsum dolor sit amet.
-                      </li>
+                      <li class="pricing-features-item"> Beasiswa sobat comate merupakan paket yang di tunjukan untuk para siswa/I yang memiliki keterbatasan dalam hal finansial, tetapi memiliki keinginan yang kuat untuk belajar guna menghadapi seleksi masuk ke jenjang pendidikan yang lebih tinggi di sekolah favorit. Beasiswa ini memberikan pembebasan biaya bimbel dan akses gratis terhadap semua fasilitas pembelajaran yang disediakan selama 1 bulan apabila peserta yang bersangkutan memenuhi syarat dan ketentuan yang berlaku.</li>
                     </ul>
-                    <span class="pricing-price">100K</span>
+                    <span class="pricing-price">Gratis</span>
+                    <div class="pricing-regis d-flex justify-content-center d-block">
+                      <a href="https://forms.gle/bT991Fa6jyMUUCCT6" target="_blank" class="pricing-button"><strong>DAFTAR</strong></a>
+                    </div>
                   </div>
                   <div class="pricing-plan">
                     <img
@@ -34,33 +34,15 @@ class PricingList extends HTMLElement {
                       alt=""
                       class="pricing-img"
                     />
-                    <h2 class="pricing-header">PAKET 2</h2>
+                    <h2 class="pricing-header">BIMBEL COMATE</h2>
                     <ul class="pricing-features">
-                      <li class="pricing-features-item">Lorem, ipsum.</li>
-                      <li class="pricing-features-item">
-                        Lorem ipsum dolor sit amet.
-                      </li>
+                      <li class="pricing-features-item">Paket Bimbel ini merupakan paket yang memiliki berbagai penawaran fasilitas dan frekuensi pertemuan pembelajaran yang berbeda-beda sesuai dengan keinginan dan kebutuhan peserta. Paket ini juga dirancang  untuk memberikan penawaran fasilitas terbaik dengan harga yang terjangkau.</li>
                     </ul>
-                    <span class="pricing-price">125K</span>
+                    <span class="pricing-price">Berbayar</span>
+                    <div class="pricing-regis d-flex justify-content-center d-block">
+                      <a href="https://forms.gle/HY17XxoqB1cNQhiZ9" target="_blank" class="pricing-button"><strong>DAFTAR</strong></a>
+                    </div>
                   </div>
-                  <div class="pricing-plan">
-                    <img
-                      src="./src/img/Paket 3-mini.png"
-                      alt=""
-                      class="pricing-img"
-                    />
-                    <h2 class="pricing-header">PAKET 3</h2>
-                    <ul class="pricing-features">
-                      <li class="pricing-features-item">Lorem, ipsum.</li>
-                      <li class="pricing-features-item">
-                        Lorem ipsum dolor sit amet.
-                      </li>
-                    </ul>
-                    <span class="pricing-price">150K</span>
-                  </div>
-                  </div>
-                  <div class="pricing-regis d-flex justify-content-center d-block">
-                    <a href="#/" class="pricing-button"><strong>DAFTAR</strong></a>
                   </div>
                 </div>
               </div>

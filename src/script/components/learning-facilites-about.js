@@ -76,7 +76,7 @@ class LearningFacilitiesAbout extends HTMLElement {
 
   render() {
     this.innerHTML = `
-        <section class="why-choose-us-area">
+        <section class="why-choose-us-area" id="learn-facilities">
           <div class="container">
             <div class="row">
               <div class="col-xl-12 col-md-12 col-sm-12 col-12">

@@ -23,7 +23,7 @@ class NavBar extends HTMLElement {
                   <a href="./about.html">TENTANG KAMI</a>
                 </li>
                 <li class="main_nav_item">
-                  <a href="./index.html#pricing-list">PAKET BELAJAR</a>
+                  <a href="./pricingList.html">PAKET BELAJAR</a>
                 </li>
                 <li class="main_nav_item">
                   <a href="./index.html#contact">KONTAK KAMI</a>

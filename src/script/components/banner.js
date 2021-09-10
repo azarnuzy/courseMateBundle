@@ -14,8 +14,7 @@ class Banner extends HTMLElement {
                     <h5>Madanian Cared</h5>
                     <h1>Solusi Belajar Terbaik Masuk SMA Favorit</h1>
                     <p>Tunggu apa lagi, mulai kelasmu sekarang juga!!!</p>
-                    <a href="#pricing-list" class="btn_1"><b>Lihat Paket</b></a>
-                    <a href="#" class="btn_2"><b>Daftar</b></a>
+                    <a href="./index.html#pricing-list" class="btn_1"><b>Daftar</b></a>
                   </div>
                 </div>
               </div>

@@ -13,6 +13,7 @@
 @import './heroAbout.css';
 @import './descAbout.css';
 @import './responsive.css';
+@import './detailPricing.css';
 
 body {
   font-family: 'Quicksand', sans-serif;

@@ -1,0 +1,31 @@
+.detail-pricing-header {
+  color: black;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.modal-backdrop {
+  z-index: unset;
+}
+
+.modal-title {
+  font-size: 30px;
+  color: rgb(38, 38, 38);
+}
+
+ol.custom-numbers {
+  list-style: none;
+}
+
+ol.custom-numbers li {
+  font-size: 24px;
+  counter-increment: my-awesome-counter;
+  color: rgb(38, 38, 38);
+}
+
+ol.custom-numbers li::before {
+  content: counter(my-awesome-counter) '. ';
+  color: #2b90d9;
+  font-weight: bold;
+}
