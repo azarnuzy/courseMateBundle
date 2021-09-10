@@ -20,17 +20,17 @@ class Contact extends HTMLElement {
                   <div class="email">
                     <i class="far fa-envelope"></i>
                     <h4>Email:</h4>
-                    <p>mdcared@gmail.com</p>
+                    <p>official.coursemate@gmail.com</p>
                   </div>
                   <div class="email">
                     <i class="fab fa-instagram"></i>
                     <h4>Instagram</h4>
-                    <p>mdcared</p>
+                    <p>@official.coursemate</p>
                   </div>
                   <div class="phone">
                     <i class="fab fa-youtube"></i>
                     <h4>Youtube</h4>
-                    <p>madanian_Cared</p>
+                    <p>official.coursemate</p>
                   </div>
                   <div class="phone">
                     <i class="fas fa-phone-alt"></i>

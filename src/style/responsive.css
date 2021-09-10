@@ -41,7 +41,7 @@
   }
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1380px) {
   .header_content {
     width: 100%;
   }
@@ -49,6 +49,11 @@
   .header {
     width: 90%;
   }
+
+  .main_nav_item {
+    margin-right: 30px;
+  }
+
   .main_nav_container {
     padding-right: 53px;
   }

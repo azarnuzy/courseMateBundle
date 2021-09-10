@@ -11,7 +11,7 @@ class Banner extends HTMLElement {
               <div class="col-lg-6 col-xl-6">
                 <div class="banner_text">
                   <div class="banner_text_iner">
-                    <h5>Madanian Cared</h5>
+                    <h5>Course Mate</h5>
                     <h1>Solusi Belajar Terbaik Masuk SMA Favorit</h1>
                     <p>Tunggu apa lagi, mulai kelasmu sekarang juga!!!</p>
                     <a href="./index.html#pricing-list" class="btn_1"><b>Daftar</b></a>

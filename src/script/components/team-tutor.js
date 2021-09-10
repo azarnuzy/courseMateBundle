@@ -8,9 +8,9 @@ class TeamTutor extends HTMLElement {
         <section id="team" class="team section-bg">
           <div class="container">
             <div class="section-title">
-              <h2>TENAGA PENGAJAR MDCARED</h2>
+              <h2>TENAGA PENGAJAR COURSE MATE</h2>
               <p>
-                Lebih seru belajar bareng para tenaga pengajar di Madanian Cared.
+                Lebih seru belajar bareng para tenaga pengajar di Course Mate.
                 Yuk Kenalan sama mereka!
               </p>
             </div>

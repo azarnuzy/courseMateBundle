@@ -9,8 +9,8 @@ class NavBar extends HTMLElement {
         <div class="header_content d-flex flex-row align-items-center">
           <div class="logo_container">
             <div class="logo">
-              <img src="./src/img/output-onlinepngtools.png" alt="LOGO" />
-              <span>MDCared</span>
+              <img src="./src/img/new_logo_coursemate1.png" alt="LOGO" />
+              <span>CourseMate</span>
             </div>
           </div>
           <div class="main_nav_container">
