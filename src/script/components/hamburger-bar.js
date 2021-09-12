@@ -14,7 +14,7 @@ class HamburgerBar extends HTMLElement {
               <ul class="menu_list menu_mm">
                 <li class="menu_item menu_mm"><a href="./index.html#">BERANDA</a></li>
                 <li class="menu_item menu_mm"><a href="./about.html">TENTANG KAMI</a></li>
-                <li class="menu_item menu_mm"><a href="./index.html#pricing-list">PAKET BELAJAR</a></li>
+                <li class="menu_item menu_mm"><a href="./pricingList.html">PAKET BELAJAR</a></li>
                 <li class="menu_item menu_mm"><a href="./index.html#contact">KONTAK KAMI</a></li>
               </ul>
               <div class="menu_social_container menu_mm">
