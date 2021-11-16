@@ -44,7 +44,7 @@
 
 .pricing-table * {
   text-align: center;
-  text-transform: uppercase;
+  text-transform:none;
 }
 
 .pricing-plan {

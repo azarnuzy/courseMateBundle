@@ -25,16 +25,16 @@ class DescAbout extends HTMLElement {
             <div class="row">
               <div class="col-md-7 order-md-last wrap-about py-5 bg-light">
                 <div class="text px-4">
-                  <h2>Sejarah Berdirinya MDCared</h2>
+                  <h2>Sejarah Berdirinya Course Mate</h2>
                   <p>${about.sejarah.a}</p>
                   <p>${about.sejarah.b}</p>
                   <p>${about.sejarah.c}</p>
                 </div>
               </div>
               <div class="col-md-5 wrap-about py-5 pr-md-4">
-                <h2 class="mb-4">Visi MDCared</h2>
+                <h2 class="mb-4">Visi Course Mate</h2>
                 <p>${about.visi}</p>
-                <h2 class="mb-4">Misi MDCared</h2>
+                <h2 class="mb-4">Misi Course Mate</h2>
                 <ol>
                   <li>${about.misi.a}</li>
                   <li>${about.misi.b}</li>
@@ -42,7 +42,7 @@ class DescAbout extends HTMLElement {
                   <li>${about.misi.d}</li>
                   <li>${about.misi.e}</li>
                 </ol>
-                <h2 class="mb-4">Tujuan MDCared</h2>
+                <h2 class="mb-4">Tujuan Course Mate</h2>
                 <p>${about.tujuan}</p>
               </div>
             </div>

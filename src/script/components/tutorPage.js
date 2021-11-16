@@ -4,7 +4,7 @@ const tutorListCard = document.createElement('div');
 tutorListCard.setAttribute('class', 'tutorListCard');
 
 const loopTutorCard = () => {
-  for(let i=0; i<4; i+=2) {
+  for(let i=0; i<16; i+=2) {
     const tutorCard = document.createElement("div");
     tutorCard.setAttribute('class', 'row');
     
@@ -52,13 +52,31 @@ const loopTutorCard = () => {
 
 loopTutorCard();
 
-class TeamTutor extends HTMLElement {
-  connectedCallback() {
-    this.render();
-  }
-
-  render() {  
-    this.innerHTML = `
+class TutorPage extends HTMLElement {
+    connectedCallback() {
+      this.render();
+    }
+  
+    render() {
+      this.innerHTML = `
+        <section class="hero-wrap hero-wrap-2">
+          <div class="overlay"></div>
+          <div class="container">
+            <div
+              class="
+                row
+                no-gutters
+                slider-text
+                align-items-center
+                justify-content-center
+              "
+            >
+              <div class="col-md-9 text-center">
+                <h1 class="mb-2 bread">Tenaga Pengajar</h1>
+              </div>
+            </div>
+          </div>
+        </section>
         <section id="team" class="team section-bg">
           <div class="container">
             <div class="section-title">
@@ -69,15 +87,11 @@ class TeamTutor extends HTMLElement {
               </p>
             </div>
             ${tutorListCard.innerHTML}
-            <div class="d-flex align-items-end flex-column bd-highlight mt-4">
-              <div class="link-why text-center">
-                <strong><a href="./tutor.html">Lihat Selengkapnya...</a></strong>
-              </div>
-            </div>
           </div>
         </section>
         `;
+    }
   }
-}
-
-customElements.define('team-tutor', TeamTutor);
+  
+  customElements.define('tutor-page', TutorPage);
+  

@@ -21,6 +21,7 @@ import './script/components/heroWrap.js';
 import './script/components/descAbout.js';
 import './script/components/learning-facilites-about.js';
 import './script/components/detail-pricing.js';
+import './script/components/tutorPage.js';
 import './script/view/dom.js';
 
 document.addEventListener('DOMContentLoaded', main);

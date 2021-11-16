@@ -96,3 +96,27 @@
 .team .member .social a + a {
   margin-left: 8px;
 }
+
+.profile-social-links {
+  width: 100%;
+}
+
+.profile-social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #375697;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.profile-social-links a:hover{
+  background: #fff;
+  color: #375697;
+}
+

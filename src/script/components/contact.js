@@ -13,7 +13,6 @@ class Contact extends HTMLElement {
                 Hubungi kami lebih lanjut pada kontak berikut:
               </p>
             </div>
-        
             <div class="row">
               <div class="col-lg-5 d-flex align-items-lg-stretch">
                 <div class="info">
