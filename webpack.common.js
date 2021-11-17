@@ -30,21 +30,25 @@ module.exports = {
       template: './src/index.html',
       filename: 'index.html',
       chunks: 'app',
+      favicon: "./src/img/favicon.ico"
     }),
     new HtmlWebpackPlugin({
       template: './src/about.html',
       filename: 'about.html',
       chunks: 'about',
+      favicon: "./src/img/favicon.ico"
     }),
     new HtmlWebpackPlugin({
       template: './src/pricingList.html',
       filename: 'pricingList.html',
       chunks: 'pricingList',
+      favicon: "./src/img/favicon.ico"
     }),
     new HtmlWebpackPlugin({
       template: './src/tutor.html',
       filename: 'tutor.html',
       chunks: 'tutor',
+      favicon: "./src/img/favicon.ico"
     }),
     new copyWebpackPlugin({
       patterns: [
