@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1280px) and (max-width: 3640px) {
   .container {
-    max-width: 1170px;
+    max-width: 1280px;
   }
 
   .pricing-detail .col-xl-1 {
@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 1500px) {
   .banner_part:after {
-    right: 20px;
+    right: 5vw;
   }
 }
 

@@ -4,10 +4,10 @@ const tutorListCard = document.createElement('div');
 tutorListCard.setAttribute('class', 'tutorListCard');
 
 const loopTutorCard = () => {
-  for(let i=0; i<16; i+=2) {
-    const tutorCard = document.createElement("div");
+  for (let i = 0; i < 16; i += 2) {
+    const tutorCard = document.createElement('div');
     tutorCard.setAttribute('class', 'row');
-    
+
     tutorCard.innerHTML = `
     <div class="col-lg-6 mt-4 mt-lg-3">
       <div class="member d-flex align-items-start">
@@ -30,13 +30,13 @@ const loopTutorCard = () => {
     <div class="col-lg-6 mt-4 mt-lg-3">
       <div class="member d-flex align-items-start">
         <div class="pic">
-          <img src="./src/img/${tutor[i+1].foto}" class="img-fluid" alt="" />
+          <img src="./src/img/${tutor[i + 1].foto}" class="img-fluid" alt="" />
         </div>
         <div class="member-info">
-          <h4>${tutor[i+1].name}</h4>
-          <span>${tutor[i+1].bidang}</span>
+          <h4>${tutor[i + 1].name}</h4>
+          <span>${tutor[i + 1].bidang}</span>
           <p>
-            ${tutor[i+1].descBidang}
+            ${tutor[i + 1].descBidang}
           </p>
           <div class="profile-social-links mt-2">
             <a href="#"><i class="fab fa-linkedin"></i></a>            
@@ -45,20 +45,20 @@ const loopTutorCard = () => {
         </div>
       </div>
     </div>
-    `
+    `;
     tutorListCard.appendChild(tutorCard);
   }
-}
+};
 
 loopTutorCard();
 
 class TutorPage extends HTMLElement {
-    connectedCallback() {
-      this.render();
-    }
-  
-    render() {
-      this.innerHTML = `
+  connectedCallback() {
+    this.render();
+  }
+
+  render() {
+    this.innerHTML = `
         <section class="hero-wrap hero-wrap-2">
           <div class="overlay"></div>
           <div class="container">
@@ -90,8 +90,7 @@ class TutorPage extends HTMLElement {
           </div>
         </section>
         `;
-    }
   }
-  
-  customElements.define('tutor-page', TutorPage);
-  
+}
+
+customElements.define('tutor-page', TutorPage);

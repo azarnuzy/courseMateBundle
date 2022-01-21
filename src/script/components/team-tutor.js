@@ -4,10 +4,10 @@ const tutorListCard = document.createElement('div');
 tutorListCard.setAttribute('class', 'tutorListCard');
 
 const loopTutorCard = () => {
-  for(let i=0; i<4; i+=2) {
-    const tutorCard = document.createElement("div");
+  for (let i = 0; i < 4; i += 2) {
+    const tutorCard = document.createElement('div');
     tutorCard.setAttribute('class', 'row');
-    
+
     tutorCard.innerHTML = `
     <div class="col-lg-6 mt-4 mt-lg-3">
       <div class="member d-flex align-items-start">
@@ -20,8 +20,7 @@ const loopTutorCard = () => {
           <p>
             ${tutor[i].descBidang}
           </p>
-          <div class="profile-social-links mt-2">
-            <a href="#"><i class="fab fa-linkedin"></i></a>            
+          <div class="profile-social-links mt-2">            
             <a href="#"><i class="fab fa-instagram"></i></a>        
           </div>
         </div>
@@ -30,25 +29,24 @@ const loopTutorCard = () => {
     <div class="col-lg-6 mt-4 mt-lg-3">
       <div class="member d-flex align-items-start">
         <div class="pic">
-          <img src="./src/img/${tutor[i+1].foto}" class="img-fluid" alt="" />
+          <img src="./src/img/${tutor[i + 1].foto}" class="img-fluid" alt="" />
         </div>
         <div class="member-info">
-          <h4>${tutor[i+1].name}</h4>
-          <span>${tutor[i+1].bidang}</span>
+          <h4>${tutor[i + 1].name}</h4>
+          <span>${tutor[i + 1].bidang}</span>
           <p>
-            ${tutor[i+1].descBidang}
+            ${tutor[i + 1].descBidang}
           </p>
-          <div class="profile-social-links mt-2">
-            <a href="#"><i class="fab fa-linkedin"></i></a>            
+          <div class="profile-social-links mt-2">            
             <a href="#"><i class="fab fa-instagram"></i></a>        
           </div>
         </div>
       </div>
     </div>
-    `
+    `;
     tutorListCard.appendChild(tutorCard);
   }
-}
+};
 
 loopTutorCard();
 
@@ -57,7 +55,7 @@ class TeamTutor extends HTMLElement {
     this.render();
   }
 
-  render() {  
+  render() {
     this.innerHTML = `
         <section id="team" class="team section-bg">
           <div class="container">
