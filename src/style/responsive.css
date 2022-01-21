@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 1500px) {
   .banner_part:after {
-    right: 5vw;
+    right: 3vw;
   }
 }
 
@@ -63,7 +63,7 @@
   }
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 1280px) {
   .main_nav_container {
     display: none;
   }

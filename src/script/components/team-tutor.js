@@ -21,7 +21,9 @@ const loopTutorCard = () => {
             ${tutor[i].descBidang}
           </p>
           <div class="profile-social-links mt-2">            
-            <a href="#"><i class="fab fa-instagram"></i></a>        
+            <a href="${
+              tutor[i].linkInstagram
+            } " target="_blank"><i class="fab fa-instagram"></i></a>        
           </div>
         </div>
       </div>
@@ -38,7 +40,9 @@ const loopTutorCard = () => {
             ${tutor[i + 1].descBidang}
           </p>
           <div class="profile-social-links mt-2">            
-            <a href="#"><i class="fab fa-instagram"></i></a>        
+            <a href="${
+              tutor[i + 1].linkInstagram
+            }" target="_blank"><i class="fab fa-instagram"></i></a>        
           </div>
         </div>
       </div>
